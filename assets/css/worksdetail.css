@@ -1,0 +1,60 @@
+.navbar-toggler{
+    border: none;
+}
+.nav-item a{
+    font-weight: 500;
+}
+.btn{
+    background-color:  #FF6464;
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+}
+.container-1{
+    width: 100%;
+}
+
+.fw-bold-md{
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+.sub-title{
+    padding-left: 16px;
+    font-size: 20px;
+
+}
+
+h3{
+    padding-top: 100px;
+    background-color:rgb(255,100,100);
+    color: #ffffff;
+    border-radius: 15px;
+    width: 60px;
+    height: 20px;
+    font-size: 15px;
+    padding: 0 10px;
+}
+h1{
+padding-top: 50px;
+}
+h2{
+padding-top: 5px;
+
+}
+h3{
+    padding-left:15px ;
+
+}
+footer .d-flex{
+    grid-template-rows: repeat(2, 30%);
+    grid-gap: 20px;
+
+}
+@media (min-width: 992px) {
+    .container{
+        width: 60%;
+    }
+    img{
+        width: 100%;
+    }
+}

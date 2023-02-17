@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+a, h1, p{
+    font-family: 'Heebo', sans-serif;
+    color: #21243D;
+}
+h2{
+    font-weight: 500px;
+}
+.container-1{
+    width: 100%;
+}
+.navbar-toggler{
+    border: none;
+}
+.nav-item a{
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.nav-item a:hover{
+    color: #142850;
+}
+.btn{
+    background-color:  #FF6464;
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+}
+h2{
+    font-weight: 600;
+}
+h1{
+    font-weight: 700;
+}
+.recent .RecentText{
+    font-size: 22px;
+}
+.recent .viewText{
+    color: #00A8CC;
+    font-size: 16px;
+    text-decoration: none;
+}
+.recent .gx-5{
+    grid-template-rows: repeat(2, 30%);
+    grid-gap: 20px;
+}
+.recent .gx-5 h3{
+    font-weight: 700;
+}
+.featured .featuredText{
+    font-size: 22px;
+}
+.featured .baris .text h2{
+    font-weight: 700;
+}
+.featured .baris .text h2 a{
+    text-decoration: none;
+}
+.featured .baris .text h2 a:hover{
+    color: #21243D;
+}
+.featured .baris .text .tahun{
+    font-weight: 900;
+    background-color: #142850;
+    border-radius: 50px;
+    color: white;
+    padding: 0 10px;
+}
+.featured .baris .text .keterangan{
+    color: #8695A4;
+}
+footer .d-flex{
+    grid-template-rows: repeat(2, 30%);
+    grid-gap: 20px;
+}
+.nav-item a.active{
+    color: #FF6464;
+}
+@media (max-width: 992px) {
+    .recent .viewText{
+        display: none;
+    }
+    .recent{
+        background-color: #EDF7FA;
+        margin-top: 70px;
+    }
+    .baris img{
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .hero{
+        margin-top: 10%;
+    }
+    .container{
+        width: 70%;
+    }
+    .recent{
+        background-color: #EDF7FA;
+        margin-top: 90px;
+    }
+    .baris img{
+        width: 50%;
+    }
+}

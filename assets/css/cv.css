@@ -1,0 +1,113 @@
+* 
+{
+/* padding: 0; */
+   margin-left: 12px;
+   margin-right: 12px;
+   box-sizing: border-box;
+   list-style: none;
+   font-family: 'Nunito', sans-serif;
+   color: #fff;
+}
+body
+{
+   background-color: rgb(255, 255, 255);
+   /* display: flex;
+   flex-direction: column; */
+   align-items: center ;
+  
+}
+.container{
+
+   justify-content: center;
+   padding: 20px;
+   height:  1000px;
+   background:#0b1316;
+   width: 90%;
+}
+
+
+
+.profile {
+   width: 80%;
+   border-bottom: 1px solid #002333;
+   padding-left: 40px;
+
+}
+
+.image {
+   width: 60%;
+   text-align: center;
+   padding-left: 80px;
+
+}
+
+.profile img {
+   width: 60%;
+   border-radius: 50%;
+   border: 8px solid #002333;
+}
+
+.dt {
+   padding-top: 0.5rem;
+}
+
+.name {
+   font-size: 2rem;
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+  
+}
+
+.career {
+   font-size: 1.5rem;
+   color: #94D9EA;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   /* padding-bottom: 1rem; */
+}
+.main-title {
+   font-size: 1.2 rem;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: #f7f7f7ec;
+   padding-top: 0.9rem;
+}
+.main {
+   padding-top: 2rem;
+}
+.progress-bar{
+   width: 50%;
+   height: .4rem;
+   background-color: #2f81ed5b;
+   position: relative;
+   border-radius: 12px;
+}
+.progress{
+
+   height: .4rem;
+   /* position: absolute; */
+   background-color: #2D9CDB;
+   border-radius: 12px;
+}
+
+.c-progress{
+   width: 50%;
+}
+.w-progress{
+   width: 90%;
+}
+.a-progress{
+   width: 50%;
+}
+.b-progress{
+   width: 50%;
+}
+.e-progress{
+   width: 50%;
+}
+.d-progress{
+   width: 50%;
+}
